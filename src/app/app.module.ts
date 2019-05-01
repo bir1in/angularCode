@@ -4,10 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ShipsComponent } from './ships/ships.component';
-import { InfoComponent } from './info/info.component';
-import { LoginComponent } from './login/login.component';
-import { NavComponent } from './nav/nav.component';
-import { CreateaccountComponent } from './createaccount/createaccount.component';
+import { InfoComponent } from './components/info/info.component';
+import { LoginComponent } from './components/login/login.component';
+import { NavComponent } from './components/nav/nav.component';
+import { CreateaccountComponent } from './components/createaccount/createaccount.component';
 import { HttpClientModule } from '@angular/common/http';
 import { APP_BASE_HREF } from '@angular/common';
 
