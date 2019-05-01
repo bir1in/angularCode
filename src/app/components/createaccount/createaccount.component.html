@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Create Trader Acount
+  </h1>
+</div>
+<div class="container">
+<h2>Input Trade Credentials Here:</h2>
+<form class="forms" action="/#" method="POST">
+<label for="username">Trader Username</label><br>
+<input type="text" name="username" [(ngModel)]="username" placeholder="Enter Username"><br>
+<label for="password">Password</label><br>
+<input type="password" name="password1" [(ngModel)]="password1" placeholder="Enter Password"><br>
+<label for="password">Confirm Password</label><br>
+<input type="password" name="password2" [(ngModel)]="password2" placeholder="Enter Password Again"><br><br>
+<input type="submit" id="submitBtn" (click)="createAccount()" value="Create Credentials">
+</form>
+</div>
