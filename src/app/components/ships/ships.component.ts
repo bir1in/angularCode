@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Ship } from '../ship';
-import { SHIPS } from '../mock-ships';
+import { Ship } from '../../ship';
+import { SHIPS } from '../../mock-ships';
 
 @Component({
   selector: 'app-ships',
