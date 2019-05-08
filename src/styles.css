@@ -1,13 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 h1 {
-    background-color: rgba(73, 64, 64, 10);
-    color: red;
+    background-color: black;
+    color: rgb(247, 247, 12);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 250%;
 }
 h2, h3 {
     color: lightskyblue;
-    background-color: rgba(73, 64, 64, 10);
+    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
@@ -20,12 +20,12 @@ body, input[type="text"], button {
 }
 * {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(77, 64, 64, 10);
+    background-color: black;
     color: rgb(241, 240, 240);
 }
 #submitBtn {
-    background-color: rgba(220, 210, 200, 10);
-    color: red;
+    background-color: rgb(102, 93, 93);
+    color: rgb(241, 240, 240);
     font-size: 150%;
 }
 .container {
@@ -33,7 +33,7 @@ body, input[type="text"], button {
     margin: auto;
 }
 a:link, a:visited {
-    background-color: #f44336;
+    background-color: rgb(102, 93, 93);
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -41,10 +41,19 @@ a:link, a:visited {
     display: inline-block;
 }
 a:hover {
-    background-color: lightskyblue;
+    background-color: rgb(80, 72, 72);
     text-decoration: none;
 }
 li, ul, a {
     list-style-type: none;
     margin-left: -10px;
 }
+input[type=text], input[type=password], select, textarea {
+    width: 20%;
+    padding: 12px;
+    border: 1px solid rgb(247, 247, 12);
+    border-radius: 4px;
+    resize: vertical;
+    background-color: rgb(240, 233, 233);
+    color: black;
+  }

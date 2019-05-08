@@ -10,6 +10,8 @@ import { NavComponent } from './components/nav/nav.component';
 import { CreateaccountComponent } from './components/createaccount/createaccount.component';
 import { HttpClientModule } from '@angular/common/http';
 import { APP_BASE_HREF } from '@angular/common';
+import { HttpModule } from '@angular/http';
+import { UserService } from './services/user-service.service';
 
 @NgModule({
   declarations: [
@@ -24,9 +26,10 @@ import { APP_BASE_HREF } from '@angular/common';
     BrowserModule,
     FormsModule,
     AppRoutingModule,
+    HttpModule,
     HttpClientModule
   ],
-  providers: [{provide: APP_BASE_HREF, useValue: '/project2'}],
+  providers: [{provide: APP_BASE_HREF, useValue: '/project2'}, UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

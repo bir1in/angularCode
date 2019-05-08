@@ -25,6 +25,16 @@
   <select id="passengerList5">
     <option>Select passengers</option>
   </select><br><br>
-  <input type="submit" id="submitBtn" value="Find Compatible Ships">
+  <input type="submit" id="submitBtn" value="Find Compatible Ships"><br><br>
+  <input type="button" id="submitBtn" value="List People" (click)="get_people()"><br>
+  <input type="button" id="submitBtn" value="List Planets" (click)="get_planets()"><br>
+  <input type="button" id="submitBtn" value="List Starships" (click)="get_starships()"><br>
+  <ul>
+    <li *ngFor="let people of people">
+      name: {{people.name}}
+      homeworld: {{people.homeworld}}
+      starships: {{people.starships}}
+    </li>
+  </ul>
 </form>
 </div>
